@@ -1,0 +1,1 @@
+# plugins-sliderspack-all-in-one-image-sliders
