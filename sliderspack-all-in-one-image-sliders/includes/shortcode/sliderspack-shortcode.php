@@ -34,9 +34,16 @@ function wp_spaios_slider_shortcode( $atts, $content = null) {
 	$prefix			= WP_APAIOIS_META_PREFIX;
 	$unique			= wp_spaios_get_unique();
 
+	$check_post_gallery_arr = wp_spaios_check_post_gallery_type();
+	$slider_type_arr 		= wp_spaios_slider_type();
+
 	// Taking some general variable
 	$check_post_gallery	= get_post_meta( $slider_id, $prefix.'check_post_gallery', true );
-	$slider_type		= get_post_meta( $slider_id, $prefix.'slider_type', true );
+	$check_post_gallery	= ( $check_post_gallery && ( array_key_exists( trim( $check_post_gallery ), $check_post_gallery_arr ) ) ) ? trim( $check_post_gallery ) : 'gallery';
+
+	// Taking some slider type variable
+	$slider_type	= get_post_meta( $slider_id, $prefix.'slider_type', true );
+	$slider_type	= ( $slider_type && ( array_key_exists( trim( $slider_type ), $slider_type_arr ) ) ) ? trim( $slider_type ) : 'bxslider';
 
 	// Taking common parameters
 	$arrow				= get_post_meta( $slider_id, $prefix.'arrow', true );
@@ -321,7 +328,6 @@ function wp_spaios_slider_shortcode( $atts, $content = null) {
 
 	// Design File
 	$design_file_path	= WP_APAIOIS_DIR . '/templates/' . $check_post_gallery.'/'.$slider_type.'/design-1.php';
-	$design_file_path	= file_exists( $design_file_path ) ? $design_file_path : '';
 
 	// Taking some variable
 	$slider_style	= '';
@@ -386,7 +392,7 @@ function wp_spaios_slider_shortcode( $atts, $content = null) {
 							$alt_text		= get_post_meta( $gallery_val, '_wp_attachment_image_alt', true );
 
 							// Include shortcode html file
-							if( $design_file_path ) {
+							if( file_exists( $design_file_path ) ) {
 								include( $design_file_path );
 							}
 
@@ -419,7 +425,7 @@ function wp_spaios_slider_shortcode( $atts, $content = null) {
 							$cat_name = join( "-", $term_links );
 
 							// Include shortcode html file
-							if( $design_file_path ) {
+							if( file_exists( $design_file_path ) ) {
 								include( $design_file_path );
 							}
 
@@ -444,7 +450,7 @@ function wp_spaios_slider_shortcode( $atts, $content = null) {
 							$alt_text		= $acf_image_data['alt'];
 
 							// Include shortcode html file
-							if( $design_file_path ) {
+							if( file_exists( $design_file_path ) ) {
 								include( $design_file_path );
 							}
 

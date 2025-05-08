@@ -186,6 +186,21 @@ function wp_spaios_get_unique() {
  * 
  * @since 1.0
  */
+function wp_spaios_check_post_gallery_type() {
+	
+	$gallery_type = array(
+					'gallery' 		=> __('Gallery', 'sliderspack-all-in-one-image-sliders'),
+					'post' 			=> __('WordPress Post', 'sliderspack-all-in-one-image-sliders'),
+					'acf-gallery'	=> __('ACF Gallery', 'sliderspack-all-in-one-image-sliders'),
+				);
+	return apply_filters('wp_spaios_check_post_gallery_type', $gallery_type );
+}
+
+/**
+ * Function to get slider style type
+ * 
+ * @since 1.0
+ */
 function wp_spaios_slider_type() {
 	$slider_type = array(
 					'bxslider'				=> esc_html__('bxSlider','sliderspack-all-in-one-image-sliders'),

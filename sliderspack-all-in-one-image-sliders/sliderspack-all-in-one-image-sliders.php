@@ -6,7 +6,7 @@
  * Author: WP OnlineSupport, Essential Plugin
  * Text Domain: sliderspack-all-in-one-image-sliders
  * Domain Path: /languages/
- * Version: 2.3
+ * Version: 2.4
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/sliderspack-one-image-post-slider/
  *
  * @package WordPress
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WP_APAIOIS_VERSION' ) ) {
-	define( 'WP_APAIOIS_VERSION', '2.3' ); // Version of plugin
+	define( 'WP_APAIOIS_VERSION', '2.4' ); // Version of plugin
 }
 if( ! defined( 'WP_APAIOIS_DIR' ) ) {
 	define( 'WP_APAIOIS_DIR', dirname( __FILE__ ) ); // Plugin dir

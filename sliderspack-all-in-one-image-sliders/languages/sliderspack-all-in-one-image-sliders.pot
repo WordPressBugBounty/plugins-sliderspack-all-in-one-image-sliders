@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SlidersPack - All In One Image/Post Slider\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-16 14:19+0000\n"
+"POT-Creation-Date: 2025-05-08 06:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -43,7 +43,7 @@ msgid ""
 " 1"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:195
+#: includes/wp-spaios-functions.php:210
 msgid "3D Slider"
 msgstr ""
 
@@ -63,6 +63,7 @@ msgstr ""
 msgid "ACF Field"
 msgstr ""
 
+#: includes/wp-spaios-functions.php:194
 #: includes/admin/metabox/post-sett-metabox.php:35
 #: includes/admin/metabox/post-sett-metabox.php:121
 msgid "ACF Gallery"
@@ -156,23 +157,23 @@ msgstr ""
 msgid "Bottom"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:253
+#: includes/wp-spaios-functions.php:268
 msgid "boxRain"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:255
+#: includes/wp-spaios-functions.php:270
 msgid "boxRainGrow"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:256
+#: includes/wp-spaios-functions.php:271
 msgid "boxRainGrowReverse"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:254
+#: includes/wp-spaios-functions.php:269
 msgid "boxRainReverse"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:252
+#: includes/wp-spaios-functions.php:267
 msgid "boxRandom"
 msgstr ""
 
@@ -180,7 +181,7 @@ msgstr ""
 msgid "BX Slider Parameters"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:191
+#: includes/wp-spaios-functions.php:206
 msgid "bxSlider"
 msgstr ""
 
@@ -431,15 +432,15 @@ msgstr ""
 msgid "Existing Sliders"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:270 includes/wp-spaios-functions.php:283
-#: includes/wp-spaios-functions.php:297 includes/wp-spaios-functions.php:299
+#: includes/wp-spaios-functions.php:285 includes/wp-spaios-functions.php:298
+#: includes/wp-spaios-functions.php:312 includes/wp-spaios-functions.php:314
 #: includes/admin/metabox/fancybox-metabox.php:32
 #: includes/admin/metabox/fancybox-metabox.php:44
 #: includes/admin/metabox/swiperslider-metabox.php:145
 msgid "Fade"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:248
+#: includes/wp-spaios-functions.php:263
 msgid "fade"
 msgstr ""
 
@@ -495,21 +496,25 @@ msgstr ""
 msgid "Flex Slider Parameters"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:192
+#: includes/wp-spaios-functions.php:207
 msgid "FlexSlider 2"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:301
+#: includes/wp-spaios-functions.php:316
 msgid "Fold"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:247
+#: includes/wp-spaios-functions.php:262
 msgid "fold"
 msgstr ""
 
 #: includes/admin/metabox/swiperslider-metabox.php:73
 #: includes/admin/metabox/swiperslider-metabox.php:230
 msgid "FreeMode"
+msgstr ""
+
+#: includes/wp-spaios-functions.php:192
+msgid "Gallery"
 msgstr ""
 
 #: includes/admin/metabox/post-sett-metabox.php:39
@@ -524,7 +529,7 @@ msgstr ""
 msgid "Gallery Type"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:268 includes/wp-spaios-functions.php:313
+#: includes/wp-spaios-functions.php:283 includes/wp-spaios-functions.php:328
 #: includes/admin/metabox/flexslider-metabox.php:42
 msgid "Horizontal"
 msgstr ""
@@ -680,7 +685,7 @@ msgstr ""
 msgid "New Slider"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:194
+#: includes/wp-spaios-functions.php:209
 msgid "Nivo Slider"
 msgstr ""
 
@@ -751,7 +756,7 @@ msgstr ""
 msgid "OWL Carousel Slider Parameters"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:193
+#: includes/wp-spaios-functions.php:208
 msgid "Owl Slider/Carousel 2"
 msgstr ""
 
@@ -787,7 +792,7 @@ msgstr ""
 msgid "Post Type"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:249
+#: includes/wp-spaios-functions.php:264
 msgid "random"
 msgstr ""
 
@@ -812,7 +817,7 @@ msgstr ""
 msgid "Remove Image"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:300
+#: includes/wp-spaios-functions.php:315
 #: includes/admin/metabox/fancybox-metabox.php:49
 msgid "Rotate"
 msgstr ""
@@ -825,12 +830,12 @@ msgstr ""
 msgid "RTL"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:298
+#: includes/wp-spaios-functions.php:313
 #: includes/admin/metabox/swiperslider-metabox.php:113
 msgid "Scale"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:197
+#: includes/wp-spaios-functions.php:212
 msgid "Scattered Polaroids Gallery"
 msgstr ""
 
@@ -1025,31 +1030,31 @@ msgstr ""
 msgid "Show thumbnail will not work with Slide To Scroll > 1."
 msgstr ""
 
-#: includes/wp-spaios-functions.php:241
+#: includes/wp-spaios-functions.php:256
 msgid "sliceDown"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:242
+#: includes/wp-spaios-functions.php:257
 msgid "sliceDownLeft"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:243
+#: includes/wp-spaios-functions.php:258
 msgid "sliceUp"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:245
+#: includes/wp-spaios-functions.php:260
 msgid "sliceUpDown"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:246
+#: includes/wp-spaios-functions.php:261
 msgid "sliceUpDownLeft"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:244
+#: includes/wp-spaios-functions.php:259
 msgid "sliceUpLeft"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:282 includes/wp-spaios-functions.php:295
+#: includes/wp-spaios-functions.php:297 includes/wp-spaios-functions.php:310
 #: includes/admin/metabox/fancybox-metabox.php:45
 #: includes/admin/metabox/swiperslider-metabox.php:144
 msgid "Slide"
@@ -1106,11 +1111,11 @@ msgstr ""
 msgid "Slide Width"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:251
+#: includes/wp-spaios-functions.php:266
 msgid "slideInLeft"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:250
+#: includes/wp-spaios-functions.php:265
 msgid "slideInRight"
 msgstr ""
 
@@ -1238,7 +1243,7 @@ msgstr ""
 msgid "Style 4"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:196
+#: includes/wp-spaios-functions.php:211
 msgid "Swiper Slider"
 msgstr ""
 
@@ -1382,7 +1387,7 @@ msgstr ""
 msgid "Un Slider Parameters"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:199
+#: includes/wp-spaios-functions.php:214
 msgid "Unslider"
 msgstr ""
 
@@ -1425,8 +1430,8 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:269 includes/wp-spaios-functions.php:296
-#: includes/wp-spaios-functions.php:314
+#: includes/wp-spaios-functions.php:284 includes/wp-spaios-functions.php:311
+#: includes/wp-spaios-functions.php:329
 #: includes/admin/metabox/flexslider-metabox.php:43
 msgid "Vertical"
 msgstr ""
@@ -1435,7 +1440,7 @@ msgstr ""
 msgid "View Slider"
 msgstr ""
 
-#: includes/wp-spaios-functions.php:198
+#: includes/wp-spaios-functions.php:213
 msgid "Wallop Slider"
 msgstr ""
 
@@ -1455,6 +1460,7 @@ msgstr ""
 msgid "Width"
 msgstr ""
 
+#: includes/wp-spaios-functions.php:193
 #: includes/admin/metabox/post-sett-metabox.php:42
 msgid "WordPress Post"
 msgstr ""

@@ -2,8 +2,8 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, ridhimashukla, patelketan
 Tags: logo ticker, bxslider, meta slider, flexslider, fancybox, nivo slider, owl slider, unslider , wallop slider , bx slider, flex slider, rolling slider,image slider, slider, 3d slider, 3d image slider, 3d image carousel, image carousel, carousel, swiper,  swiper carousel, Cascade Slider 
 Requires at least: 4.0
-Tested up to: 6.3
-Stable tag: 2.3
+Tested up to: 6.8.1
+Stable tag: 2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -130,6 +130,10 @@ With WordPress  sliders pack plugin, add slider in your blog or website  easier:
 [youtube https://www.youtube.com/watch?v=L9xLMihP09c]
 
 == Changelog ==
+
+= 2.4 (08 May 2025) = 
+* [*] Fixed local file inclusion vulnerability issue.
+* [*] Check compatibility to WordPress version 6.8.1
 
 = 2.3 (17- Aug -23) = 
 * [*] Tested up to: 6.3
