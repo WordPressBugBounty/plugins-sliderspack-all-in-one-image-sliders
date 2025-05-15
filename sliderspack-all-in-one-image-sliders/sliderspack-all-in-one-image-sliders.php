@@ -3,14 +3,14 @@
  * Plugin Name: Slider a SlidersPack - All In One Image/Post Slider
  * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/sliderspack-one-image-post-slider/
  * Description: SlidersPack - All In One Image Slider plus FancyBox for WordPress. Also work with WordPress Posts. Work with Gutenberg shortcode block. Slider added - Flex Slider 2, bxSlider, Owl Carousel 2, Swiper Slider, 3D Slider, Wallop Slider, unSlider, Nivo Slider, Responsive Slides and Polaroids Gallery.
- * Author: WP OnlineSupport, Essential Plugin
+ * Author: Essential Plugin
  * Text Domain: sliderspack-all-in-one-image-sliders
  * Domain Path: /languages/
- * Version: 2.4
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/sliderspack-one-image-post-slider/
+ * Version: 2.5
+ * Author URI: https://www.essentialplugin.com
  *
- * @package WordPress
- * @author WP OnlineSupport 
+ * @package Slider a SlidersPack - All In One Image/Post Slider
+ * @author Essential Plugin
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WP_APAIOIS_VERSION' ) ) {
-	define( 'WP_APAIOIS_VERSION', '2.4' ); // Version of plugin
+	define( 'WP_APAIOIS_VERSION', '2.5' ); // Version of plugin
 }
 if( ! defined( 'WP_APAIOIS_DIR' ) ) {
 	define( 'WP_APAIOIS_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -35,11 +35,9 @@ if( ! defined( 'WP_APAIOIS_META_PREFIX' ) ) {
 if( ! defined( 'WP_APAIOIS_PLUGIN_LINK' ) ) {
 	define( 'WP_APAIOIS_PLUGIN_LINK', 'https://www.essentialplugin.com/wordpress-plugin/sliderspack-one-image-post-slider/?utm_source=WP&utm_medium=SlidersPack&utm_campaign=Features-PRO' ); // Plugin link
 }
-
 if( ! defined( 'WP_APAIOIS_PLUGIN_UPGRADE' ) ) {
 	define( 'WP_APAIOIS_PLUGIN_UPGRADE', 'https://www.essentialplugin.com/wordpress-plugin/sliderspack-one-image-post-slider/?utm_source=WP&utm_medium=SlidersPack&utm_campaign=Upgrade-PRO' ); // Plugin link
 }
-
 if( ! defined( 'WP_APAIOIS_SITE_LINK' ) ) {
 	define('WP_APAIOIS_SITE_LINK','https://www.essentialplugin.com'); // Plugin link
 }

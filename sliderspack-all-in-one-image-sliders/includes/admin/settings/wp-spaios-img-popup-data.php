@@ -56,7 +56,7 @@ $attachment_link 	= get_post_meta( $attachment_id, $prefix.'attachment_link', tr
 				<th><label for="wp-spaios-attachment-link"><?php esc_html_e('Image Link', 'album-and-image-gallery-plus-lightbox'); ?>:</label></th>
 				<td>
 					<input type="text" name="wp_spaios_attachment_link" value="<?php echo esc_url($attachment_link); ?>" class="large-text aigpl-attachment-link" id="wp-spaios-attachment-link" />
-					<span class="description"><?php esc_html_e('Enter image link. e.g ', 'sliderspack-all-in-one-image-sliders'); ?>http://wponlinesupport.com</span>
+					<span class="description"><?php esc_html_e('Enter image link. e.g ', 'sliderspack-all-in-one-image-sliders'); ?>http://essentialplugin.com</span>
 				</td>
 			</tr>
 

@@ -45,7 +45,7 @@ function wp_spaios_about_page() {
 
 		<div class="about-text"><?php echo sprintf( __('Thank you for using <a href="%s" target="_blank">%s</a>. Please <a href="%s" target="_blank">rate us</a>. A huge thanks in advance!', 'sliderspack-all-in-one-image-sliders'), 'https://www.essentialplugin.com/', 'SlidersPack', 'https://wordpress.org/support/plugin/sliderspack-all-in-one-image-sliders/reviews/#new-post' ); ?></br></br>
 		<a class="button button-primary" href="<?php echo admin_url( 'edit.php?post_type='.WP_APAIOIS_POST_TYPE); ?>" target="_blank"><?php esc_html_e('Create Sliders', 'sliderspack-all-in-one-image-sliders'); ?></a>
-		<a class="button button-primary" href="http://demo.wponlinesupport.com/sliderspack-all-in-one-image-post-slider/" target="_blank"><?php esc_html_e('Demo for Sliders', 'sliderspack-all-in-one-image-sliders'); ?></a>
+		<a class="button button-primary" href="http://demo.essentialplugin.com/sliderspack-all-in-one-image-post-slider/" target="_blank"><?php esc_html_e('Demo for Sliders', 'sliderspack-all-in-one-image-sliders'); ?></a>
 	</div>
 		<div class="wp-badge wp-spaios-page-logo"><?php echo esc_html_e('Version', 'sliderspack-all-in-one-image-sliders') .' '. WP_APAIOIS_VERSION; ?></div>
 

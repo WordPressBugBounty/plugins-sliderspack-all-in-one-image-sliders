@@ -1,13 +1,13 @@
 ﻿=== Slider a SlidersPack - Image Slider, Post Slider, ACF Gallery Slider ===
-Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, ridhimashukla, patelketan
-Tags: logo ticker, bxslider, meta slider, flexslider, fancybox, nivo slider, owl slider, unslider , wallop slider , bx slider, flex slider, rolling slider,image slider, slider, 3d slider, 3d image slider, 3d image carousel, image carousel, carousel, swiper,  swiper carousel, Cascade Slider 
+Contributors: essentialplugin
+Tags: slider, carousel, meta slider, image slider, swiper slider
 Requires at least: 4.0
 Tested up to: 6.8.1
-Stable tag: 2.4
+Stable tag: 2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-SlidersPack - All In One Image Slider plus FancyBox for WordPress. Also work with WordPress Posts. Work with Gutenberg shortcode block. Slider added - Flex Slider 2, bxSlider, Owl Carousel 2, Swiper Slider, 3D Slider, Wallop Slider, unSlider, Nivo Slider, Responsive Slides and Polaroids Gallery.
+SlidersPack - All In One Image Slider plus FancyBox for image and posts. It has Flex Slider, Owl Carousel, Swiper, 3D Slider and Polaroids Gallery.
 
 == Description ==
 
@@ -131,11 +131,14 @@ With WordPress  sliders pack plugin, add slider in your blog or website  easier:
 
 == Changelog ==
 
-= 2.4 (08 May 2025) = 
+= 2.5 (15, May 2025) =
+* [*] Updated plugin demo URL.
+
+= 2.4 (08, May 2025) =
 * [*] Fixed local file inclusion vulnerability issue.
 * [*] Check compatibility to WordPress version 6.8.1
 
-= 2.3 (17- Aug -23) = 
+= 2.3 (17, Aug 2023) = 
 * [*] Tested up to: 6.3
 * [*] Fixed all security related issues.
 
